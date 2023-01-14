@@ -1,0 +1,151 @@
+
+:root{
+    --Color-1:white;
+    --bgcolor-2:rgb(0, 0, 0);
+    --brcolor-3:rgb(203, 47, 47);
+   }
+
+
+*{
+margin: 0;
+padding: 0; 
+overflow-y:hidden; 
+font-family:Arial, Helvetica, sans-serif;
+box-sizing: border-box;
+}
+
+body{
+    background-size: cover;
+}
+.logo{
+    display:block;
+    margin-top: 30px;
+    position: relative; 
+   left: 60px;
+   top: 20px;
+    /* margin-bottom:10px; */
+} 
+
+
+
+.wel {
+    /* top: 8cm; */
+    /* left: 50%; */
+     /* position: relative;  */
+     /* margin-top: 20%; */
+    /* transform: translate(-50%, -50%);
+    height: 550px;
+    width: 70%;
+    box-shadow: 0px 20px 30px var(--bgcolor-2);
+    background:rgb(255, 255, 255);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px; */
+}
+ 
+
+
+.wel h1 {
+    padding: 30px;
+    color:var(--white);
+  color: var(--brcolor-3);
+  margin-top: 50px;
+}
+
+/* .form-group {
+    padding: 7px ;
+    padding-left:30px;
+    width: 300px;
+    margin: 0px;
+    border: none;
+    color: var(--white);
+    
+} */
+
+.em{
+  margin-right:220px;
+  color: white;
+
+  
+}
+.ps{
+    margin-right: 190px;
+    color: white;
+   
+}
+
+.form-control{
+    width: 300px;
+    height: 40px;
+    margin: 0 auto;
+     margin: 10px; 
+    margin-bottom:20px;
+}
+.txt:focus{
+    outline: none;
+} 
+#sub {
+    margin-top:30px;
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 10px 15px ;
+    background: linear-gradient(var( --Color-1),var( --Color-1)); 
+    transition: 0.3s; 
+  
+}
+
+
+#sub:hover {
+     transform: scale(1.1); 
+
+ 
+}
+
+
+.acc {
+  
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;  
+}
+
+
+.acc:hover {
+    text-decoration: underline;
+    color: var(--Color-1);
+}
+
+.icons {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.icons i {
+    padding-right: 8px;
+    font-size: xx-large;
+}
+
+.icons i :hover {
+    transform: scale(1.1);
+}
+
+.icons a {
+    text-decoration: none;
+    color:var(--brcolor-3);
+    transition: 0.3s;
+}
+
+.icons a:hover {
+    color:var(--Color-1);
+}  
+
+
+@media(max-width: 700px){
+    .cont{
+        left: 50%;
+    }
+}
